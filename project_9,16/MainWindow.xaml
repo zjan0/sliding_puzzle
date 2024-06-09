@@ -11,7 +11,7 @@
             <Viewbox Margin="204,30,204,251">
                 <Label x:Name="Name"  Content="Sliding Puzzle Game"></Label>
             </Viewbox>
-            <Button x:Name="Start" Content="Button" HorizontalAlignment="Center" Height="49" Margin="0,310,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click"/>
+            <Button x:Name="Start" Content="Start" HorizontalAlignment="Center" Height="49" Margin="0,310,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click"/>
             <TextBox x:Name="Sizexy" HorizontalAlignment="Center" Height="56" Margin="0,217,0,0" TextWrapping="Wrap" Text="Enter Field Size: 2-10" VerticalAlignment="Top" Width="226" TextChanged="TextBox_TextChanged" FontSize="20"/>
         </Grid>
         <Grid x:Name="PanelF" Visibility="Hidden">
